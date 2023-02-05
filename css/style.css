@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poiret One', cursive;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+header {
+    height: 500px;
+}
+
+.ml:hover {
+    /* box-shadow: 10px 10px 10px 30px magenta; */
+    box-shadow: rgba(248, 3, 252, 0.35) 0px 10px 150px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+a:hover {
+    color: magenta;
+    border-bottom: 1px solid white;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.scale {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+    margin-top: 250px;
+    margin-bottom: 200px;
+}
+
+.main_photo {
+    display: block;
+}
+
+.main_photo:hover {
+    transform: scale(1.5);
+    transition: 1.2s;
+}
+
+.main_logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 500px;
+    margin-bottom: 150px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+.container {
+    height: 800px;
+}
+
+.parag {
+    width: 800px;
+    color: sandybrown;
+    font-size: 20px;
+}
+
+.map {
+    margin-bottom: 20px;
+}
+
+.your-class {
+    margin-bottom: 20px;
+}
+
+.pd {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.mt {
+    margin-top: 20px;
+}
+.dsongentom{
+    position: relative;
+    top: 50%;  
+    width: 30em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);  
+  }
+  
+  .desetungavon{
+    animation: typewriter 4s steps(44) 1s 1 normal both,
+    blinkTextCursor 500ms steps(44) infinite normal;
+  }
+  @keyframes typewriter{
+    from{width: 0;}
+    to{width: 12ch;}
+  }
+  @keyframes blinkTextCursor{
+    from{border-right-color: rgba(255,255,255,.75);}
+    to{border-right-color: transparent;}
+  }
