@@ -12,7 +12,9 @@ body {
 header {
     height: 500px;
 }
-
+/* .ml {
+    width: 35%;
+} */
 .ml:hover {
     /* box-shadow: 10px 10px 10px 30px magenta; */
     box-shadow: rgba(248, 3, 252, 0.35) 0px 10px 150px;
@@ -32,13 +34,15 @@ a:hover {
 
 ul {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     list-style-type: none;
+    gap: 5px;
 }
 
 .scale {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding-top: 20px;
     align-items: center;
     flex-wrap: wrap;
@@ -81,18 +85,17 @@ ul {
 }
 
 .map {
-    margin-top: 200px;
     margin-bottom: 20px;
-    padding-top: 20px;
+    margin-top: 400px;
 }
 
 .your-class {
-    margin-bottom: 20px;
+    padding-bottom: 20px;
 }
 
 .pd {
     padding-left: 20px;
-    padding-right: 20px;
+    /* padding-right: 20px; */
 }
 
 .mt {
@@ -124,6 +127,10 @@ ul {
     to{border-right-color: transparent;}
   }
 .carousel_div {
-    padding-bottom: 200px;
+    display: block;
 }
-
+@media screen and (max-width:1400px) {
+    .map {
+        margin-top: 800px;
+    }
+}
