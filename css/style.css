@@ -37,7 +37,7 @@ ul {
     flex-wrap: wrap;
     justify-content: space-around;
     list-style-type: none;
-    gap: 50px;
+    gap: 35px;
 }
 
 .scale {
